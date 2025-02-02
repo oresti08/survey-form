@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Poppins-Black";
+    src: url(Poppins-Black.ttf);
+}
+
+body{
+    background-image: url("peopleworking.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins-Black";
+    color: hsl(0, 45%, 91%);
+    
+
+
+}
+body::after{
+    font-family: Poppins-Black;
+    content:"" ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: "blue";
+    opacity: 0.9;
+    top: 0;
+    left: 0%;
+    background: rgba(0, 0, 255, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+
+}
+
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+    font-style: italic;
+}
+.form {
+    text-align: center; /* Centers text inside form */
+}
+
+.form input,
+.form select,
+.form textarea {
+    display: block;
+    margin: 10px auto; /* Centers form elements */
+    width: 50%; /* Optional: You can adjust the width to your liking */
+}
+
+.form textarea {
+    width: 50%; /* Adjust width of the textarea */
+}
